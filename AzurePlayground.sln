@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzurePlayground", "AzurePlayground\AzurePlayground.csproj", "{A23D19BB-E35E-46C1-B2B2-A5510EC62E4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzurePlayground.Tests", "AzurePlayground.Tests\AzurePlayground.Tests.csproj", "{B36C22E4-89E5-42CF-8B16-70FC5DB18639}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{5EED71E1-635A-4C87-B275-160C59E1F764}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\AzureWebsitePublishModule.psm1 = PublishScripts\AzureWebsitePublishModule.psm1
+		PublishScripts\Publish-WebApplicationWebsite.ps1 = PublishScripts\Publish-WebApplicationWebsite.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configurations", "{64989AC8-4AC6-402A-9B76-CE75B0BFD076}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Configurations\AzurePlayground-WAWS-dev.json = PublishScripts\Configurations\AzurePlayground-WAWS-dev.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A23D19BB-E35E-46C1-B2B2-A5510EC62E4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A23D19BB-E35E-46C1-B2B2-A5510EC62E4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A23D19BB-E35E-46C1-B2B2-A5510EC62E4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A23D19BB-E35E-46C1-B2B2-A5510EC62E4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B36C22E4-89E5-42CF-8B16-70FC5DB18639}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B36C22E4-89E5-42CF-8B16-70FC5DB18639}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B36C22E4-89E5-42CF-8B16-70FC5DB18639}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B36C22E4-89E5-42CF-8B16-70FC5DB18639}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{64989AC8-4AC6-402A-9B76-CE75B0BFD076} = {5EED71E1-635A-4C87-B275-160C59E1F764}
+	EndGlobalSection
+EndGlobal
