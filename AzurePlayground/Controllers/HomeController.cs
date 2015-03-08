@@ -6,7 +6,7 @@ namespace AzurePlayground.Controllers
     {
         public ActionResult Index()
         {
-            ViewBag.Message = "Hi from the Controller!!";
+            ViewBag.Message = "Hi from the Controller";
 
             return View();
         }
